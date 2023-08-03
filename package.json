@@ -1,0 +1,27 @@
+{
+  "name": "nft-mint",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "start": "hardhat node",
+    "build": "react-scripts build"
+  },
+  "keywords": [],
+  "author": "Jordana",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/contracts": "^4.9.3",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.17.1",
+    "react-scripts": "^5.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}

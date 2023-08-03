@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*------------------------------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body{
+  font-family: 'VT323';
+  color: #ffffff;
+
+  background-image: url('../public/background.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 5rem; 
+  text-align: center;
+  margin-top: 30vh; 
+}
+
+h2{
+  font-size: 2rem;
+  text-align: center; 
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/* Navbar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  color: #ffffff; 
+  padding: 10px 20px; 
+}
+
+.nav__left-section {
+  display: flex;
+  gap: 100px;
+  padding-left: 50px;
+}
+
+
+.nav__right-section {
+  display: flex;
+  gap: 60px; 
+  padding-right: 50px;
+  font-size: 2rem;
+  font-weight: 800
+}
+
+h3{
+  cursor: pointer;
+}
+h3:hover {
+  text-decoration: underline;
+}
+
+.nav__right-section h3:last-child {
+  margin-right: 0; 
+}
+
+.button-connect{
+  font-family: 'VT323';
+  background-color: transparent;
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  font-weight: 800;
+  border: transparent;
+  cursor: pointer;
+}
+
+.button-connect:hover {
+  text-decoration: underline;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/* mMin */
+
+.main{
+  text-align: center;
+}
+
+h4{
+  font-family: 'VT323';
+  font-size: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.button{
+  background-color: #eb8fe3;
+  color: #ffffff;
+
+  width: 150px;
+  height: 50px;
+  font-family: 'VT323';
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
